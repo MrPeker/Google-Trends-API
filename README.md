@@ -18,11 +18,15 @@ And run
 
 ## Usage
 / = Return Google Trends for Turkey
+
 /:country/:count = Return specific Google Trends results for country with count limitions.
 
 ## Examples
 
 /turkey/20
+
 /united+states/10
+
 /united+kingdom/15
+
 etc.
