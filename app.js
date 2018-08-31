@@ -2,7 +2,7 @@ const trends = require('node-google-search-trends');
 const express = require('express');
 const app = express();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 app.get('/', (req, res) => {
     console.log("Request: " + req.pathname);
